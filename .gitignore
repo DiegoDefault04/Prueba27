@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+*.log
+
+# Base de datos local y variables de entorno
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+.env
+!.env.example
+
+# Sistema / editores
+.DS_Store
+.idea/
+.vscode/
